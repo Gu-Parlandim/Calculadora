@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="manifest" href="image/site.webmanifest">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+   <main class="calculadora">
+        <div class="resultado">
+            <label for=""></label>
+        </div>
+        <div class="botoes">
+            <div class="primeira_fileira">
+                <input onclick="buttonC()" type="button" value="Clean">
+                <!-- botão de apagar ultimo digito (erro)-->
+                <input onclick="buttonVol()" type="button" value="❌">
+                <input  onclick="porcentagem()" type="button" value="%">
+            </div>
+            <div class="botoes_restantes">
+                <input onclick="button7()" type="button" value="7">
+                <input onclick="button8()" type="button" value="8">
+                <input onclick="button9()" type="button" value="9">
+                <input onclick="buttonMais()" type="button" value="+">
+            </div>
+            <div class="botoes_restantes">
+                <input onclick="button4()" type="button" value="4">
+                <input onclick="button5()" type="button" value="5">
+                <input onclick="button6()" type="button" value="6">
+                <input onclick="buttonMenos()" type="button" value="-">
+            </div>
+            <div class="botoes_restantes">
+                <input onclick="button1()" type="button" value="1">
+                <input onclick="button2()" type="button" value="2">
+                <input onclick="button3()" type="button" value="3">
+                <input onclick="buttonX()" type="button" value="x">
+            </div>
+            <div class="botoes_restantes">
+                <input onclick="button0()" type="button" value="0">
+                <input onclick="buttonPonto()" type="button" value=".">
+                <input onclick="buttonIgual()" type="button" value="=">
+                <input onclick="buttonDividir()" type="button" value="/">
+            </div>
+        </div>
+   </main>
+   <script src="js/calculadora.js"></script>
+</html>

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(241, 237, 237);
+    background-image: url(../image/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.calculadora {
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    width: 270px;
+    height: 355px;
+    background-color: rgba(41, 39, 39, 0.815);
+    border-radius: 5px;
+}
+
+.resultado {
+    width: 240px;
+    height: 40px;
+    margin: 25px auto;
+    border-radius: 5px;
+    background-color: white;
+    border:2px solid black;
+    line-height: 40px;
+    font-size: 2em;
+    text-align: right;
+    overflow: hidden;
+}
+
+.botoes {
+    width: 240px;
+    margin: 0 auto;
+}
+
+.primeira_fileira input:first-child {
+    background-color:#eb6839e1;
+    width: 115px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+/*temporario*/
+.primeira_fileira input:nth-child(2) {
+    font-size: 1.7em;
+}
+
+.primeira_fileira input {
+    background-color: rgb(14, 13, 13);
+    width: 58px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.botoes_restantes input {
+    background-color: rgb(14, 13, 13);
+    color: white;
+    width: 57px;
+    margin-bottom: 5px;
+    font-size: 2em;
+    border-radius: 5px;
+}
