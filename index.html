@@ -19,33 +19,32 @@
         <div class="botoes">
             <div class="primeira_fileira">
                 <input onclick="buttonC()" type="button" value="Clean">
-                <!-- botão de apagar ultimo digito (erro)-->
-                <input onclick="buttonVol()" type="button" value="❌">
+                <input onclick="backSpace()" type="button" value="&lt;">
                 <input  onclick="porcentagem()" type="button" value="%">
             </div>
             <div class="botoes_restantes">
-                <input onclick="button7()" type="button" value="7">
-                <input onclick="button8()" type="button" value="8">
-                <input onclick="button9()" type="button" value="9">
-                <input onclick="buttonMais()" type="button" value="+">
+                <input onclick="operation('7')" type="button" value="7">
+                <input onclick="operation('8')" type="button" value="8">
+                <input onclick="operation('9')" type="button" value="9">
+                <input onclick="operation('+')" type="button" value="+">
             </div>
             <div class="botoes_restantes">
-                <input onclick="button4()" type="button" value="4">
-                <input onclick="button5()" type="button" value="5">
-                <input onclick="button6()" type="button" value="6">
-                <input onclick="buttonMenos()" type="button" value="-">
+                <input onclick="operation('4')" type="button" value="4">
+                <input onclick="operation('5')" type="button" value="5">
+                <input onclick="operation('6')" type="button" value="6">
+                <input onclick="operation('-')" type="button" value="-">
             </div>
             <div class="botoes_restantes">
-                <input onclick="button1()" type="button" value="1">
-                <input onclick="button2()" type="button" value="2">
-                <input onclick="button3()" type="button" value="3">
-                <input onclick="buttonX()" type="button" value="x">
+                <input onclick="operation('1')" type="button" value="1">
+                <input onclick="operation('2')" type="button" value="2">
+                <input onclick="operation('3')" type="button" value="3">
+                <input onclick="operation('*')" type="button" value="x">
             </div>
             <div class="botoes_restantes">
-                <input onclick="button0()" type="button" value="0">
-                <input onclick="buttonPonto()" type="button" value=".">
+                <input onclick="operation('0')" type="button" value="0">
+                <input onclick="operation('.')" type="button" value=".">
                 <input onclick="buttonIgual()" type="button" value="=">
-                <input onclick="buttonDividir()" type="button" value="/">
+                <input onclick="operation('/')" type="button" value="/">
             </div>
         </div>
    </main>
